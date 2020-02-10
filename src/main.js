@@ -6,6 +6,8 @@ import store from './store'
 import Vant from 'vant'
 import 'vant/lib/index.css'
 
+import '@/assets/css/global.less' // 引入全局的自定义样式  因为要覆盖vant的样式
+
 import 'amfe-flexible/index.min.js'
 Vue.use(Vant)
 Vue.config.productionTip = false

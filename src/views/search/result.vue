@@ -1,12 +1,12 @@
 <template>
   <div class='container'>
-    <van-nav-bar fixed left-arrow @click-left="$router.back()" title="文章详情"></van-nav-bar>
+    <van-nav-bar title="搜索结果" left-arrow @click-left="$router.back()" />
   </div>
 </template>
 
 <script>
 export default {
-  name: 'article'
+  name: 'search-result'
 }
 </script>
 
